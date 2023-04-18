@@ -30,6 +30,7 @@ local _EMPTY_AUTO_HISTORY = '<table style="width:100%;text-align:left"></table>'
 local _ROLES = {
 	-- Staff and Talents
 	['analyst'] = {category = 'Analysts', variable = 'Analyst', isplayer = false},
+	['broadcast analyst'] = {category = 'Broadcast Analysts', variable = 'Broadcast Analyst', isplayer = false},
 	['observer'] = {category = 'Observers', variable = 'Observer', isplayer = false},
 	['host'] = {category = 'Hosts', variable = 'Host', isplayer = false},
 	['journalist'] = {category = 'Journalists', variable = 'Journalist', isplayer = false},
